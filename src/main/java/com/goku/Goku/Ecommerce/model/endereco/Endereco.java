@@ -3,6 +3,8 @@ package com.goku.goku.ecommerce.model.endereco;
 import lombok.*;
 import org.springframework.data.annotation.Id;
 
+import java.util.List;
+
 @Data
 @Builder
 @NoArgsConstructor
@@ -20,6 +22,7 @@ public class Endereco {
     private String cidade;
     private String estado;
     private String pais;
+    private List<String> enderecos;
 
     public Endereco(Endereco enderecos) {
     }

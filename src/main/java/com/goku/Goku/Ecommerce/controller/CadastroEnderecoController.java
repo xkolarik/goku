@@ -15,7 +15,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/v1/enderecos")
-public class CadastroEnderecoControllerResource implements EnderecoControllerResource {
+public class CadastroEnderecoController implements EnderecoControllerResource {
 
     @Autowired
     private EnderecoService enderecoService;

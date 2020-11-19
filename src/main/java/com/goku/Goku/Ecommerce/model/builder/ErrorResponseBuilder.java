@@ -1,6 +1,6 @@
 package com.goku.goku.ecommerce.model.builder;
 
-import com.goku.Goku.Ecommerce.model.presenter.ErrorResponse;
+import com.goku.goku.ecommerce.model.presenter.ErrorResponse;
 import lombok.*;
 
 @Data

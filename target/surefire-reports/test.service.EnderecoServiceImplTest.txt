@@ -1,0 +1,40 @@
+-------------------------------------------------------------------------------
+Test set: test.service.EnderecoServiceImplTest
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 0, Errors: 9, Skipped: 0, Time elapsed: 0.002 s <<< FAILURE! - in test.service.EnderecoServiceImplTest
+shouldEditarEndereco  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at test.service.EnderecoServiceImplTest.shouldEditarEndereco(EnderecoServiceImplTest.java:91)
+
+shouldDeleteEndereco  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at test.service.EnderecoServiceImplTest.shouldDeleteEndereco(EnderecoServiceImplTest.java:156)
+
+shouldBuscarPorCEP  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at test.service.EnderecoServiceImplTest.shouldBuscarPorCEP(EnderecoServiceImplTest.java:126)
+
+shouldListarEnderecos  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at test.service.EnderecoServiceImplTest.shouldListarEnderecos(EnderecoServiceImplTest.java:78)
+
+naoDeveCriarEnderecoPoisJaExiste  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at test.service.EnderecoServiceImplTest.naoDeveCriarEnderecoPoisJaExiste(EnderecoServiceImplTest.java:65)
+
+shouldNotEditEnderecoBecauseEnderecoWasNotFound  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at test.service.EnderecoServiceImplTest.shouldNotEditEnderecoBecauseEnderecoWasNotFound(EnderecoServiceImplTest.java:109)
+
+sholdNotDeleteEnderecoBecauseEnderecoWasNotFound  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at test.service.EnderecoServiceImplTest.sholdNotDeleteEnderecoBecauseEnderecoWasNotFound(EnderecoServiceImplTest.java:171)
+
+shouldNotFindByCepBecauseEnderecoWasNotFound  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at test.service.EnderecoServiceImplTest.shouldNotFindByCepBecauseEnderecoWasNotFound(EnderecoServiceImplTest.java:143)
+
+shouldCriarEndereco  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at test.service.EnderecoServiceImplTest.shouldCriarEndereco(EnderecoServiceImplTest.java:40)
+

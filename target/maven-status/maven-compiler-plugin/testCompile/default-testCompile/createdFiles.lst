@@ -1,1 +1,3 @@
 com\goku\Goku\Ecommerce\GokuEcommerceApplicationTests.class
+test\service\EnderecoServiceImplTest.class
+test\controller\EnderecoControllerTest.class

@@ -9,5 +9,4 @@ class GokuEcommerceApplicationTests {
 	@Test
 	void contextLoads() {
 	}
-
 }

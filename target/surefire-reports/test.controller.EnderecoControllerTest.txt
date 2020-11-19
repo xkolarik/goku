@@ -1,0 +1,100 @@
+-------------------------------------------------------------------------------
+Test set: test.controller.EnderecoControllerTest
+-------------------------------------------------------------------------------
+Tests run: 24, Failures: 0, Errors: 24, Skipped: 0, Time elapsed: 0.003 s <<< FAILURE! - in test.controller.EnderecoControllerTest
+naoDeveCriarEnderecoPoisOCampoLogradouroNaoFoiFornecido  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at test.controller.EnderecoControllerTest.setup(EnderecoControllerTest.java:65)
+
+naoDeveEditarEnderecoPoisNaoFoiEncontrado  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at test.controller.EnderecoControllerTest.setup(EnderecoControllerTest.java:65)
+
+deveEditarEndereco  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at test.controller.EnderecoControllerTest.setup(EnderecoControllerTest.java:65)
+
+naoDeveCriarEnderecoPoisOCampoPaisNaoFoiFornecido  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at test.controller.EnderecoControllerTest.setup(EnderecoControllerTest.java:65)
+
+naoDeveEditarEnderecoPoisAsInformacoesNaoForamPreenchidos  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at test.controller.EnderecoControllerTest.setup(EnderecoControllerTest.java:65)
+
+naoDeveCriarEnderecoPoisOCampoCEPFoiFornecidoComValorAcimaDoMaximo  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at test.controller.EnderecoControllerTest.setup(EnderecoControllerTest.java:65)
+
+naoDeveEditarPoisOCampoNumeroFoiFornecidoComValorAcimaDoMaximo  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at test.controller.EnderecoControllerTest.setup(EnderecoControllerTest.java:65)
+
+naoDeveCriarEnderecoPoisOCampoCEPFoiFornecidoComValorAbaixoDoMinimo  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NullPointerException
+	at test.controller.EnderecoControllerTest.setup(EnderecoControllerTest.java:65)
+
+naoDeveEditarPoisOCampoNumeroFoiFornecidoComValorAbaixoDoMinimo  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at test.controller.EnderecoControllerTest.setup(EnderecoControllerTest.java:65)
+
+naoDeveCriarEnderecoPoisOCampoNumeroFoiFornecidoComValorCimaDoMaximo  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at test.controller.EnderecoControllerTest.setup(EnderecoControllerTest.java:65)
+
+naoDeveCriarEnderecoPoisOCampoEstadoNaoFoiFornecido  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at test.controller.EnderecoControllerTest.setup(EnderecoControllerTest.java:65)
+
+naoDeveBuscarPorCEPPoisEnderecoNaoFoiEncontrado  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at test.controller.EnderecoControllerTest.setup(EnderecoControllerTest.java:65)
+
+deveListarTodosEnderecos  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at test.controller.EnderecoControllerTest.setup(EnderecoControllerTest.java:65)
+
+naoDeveCriarEnderecoPoisOCampoNumeroNaoFoiFornecido  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at test.controller.EnderecoControllerTest.setup(EnderecoControllerTest.java:65)
+
+deveCriarEndereco  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at test.controller.EnderecoControllerTest.setup(EnderecoControllerTest.java:65)
+
+naoDeveCriarEnderecoPoisOCampoCidadeNaoFoiFornecido  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at test.controller.EnderecoControllerTest.setup(EnderecoControllerTest.java:65)
+
+naoDeveCriarEnderecoPoisOCampoBairroNaoFoiFornecido  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at test.controller.EnderecoControllerTest.setup(EnderecoControllerTest.java:65)
+
+deveRetornarInternalServerError  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at test.controller.EnderecoControllerTest.setup(EnderecoControllerTest.java:65)
+
+naoDeveCriarEnderecoPoisJaExiste  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at test.controller.EnderecoControllerTest.setup(EnderecoControllerTest.java:65)
+
+deveDeletarEndereco  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at test.controller.EnderecoControllerTest.setup(EnderecoControllerTest.java:65)
+
+naoDeveCriarEnderecoPoisOCampoCEPNaoFoiFornecido  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at test.controller.EnderecoControllerTest.setup(EnderecoControllerTest.java:65)
+
+naoDeveDeletarEnderecoPoisEnderecoNaoFoiEncontrado  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at test.controller.EnderecoControllerTest.setup(EnderecoControllerTest.java:65)
+
+deveBuscarPorCEP  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at test.controller.EnderecoControllerTest.setup(EnderecoControllerTest.java:65)
+
+naoDeveCriarEnderecoPoisOCampoNumeroFoiFornecidoComValorAbaixoDoMinimo  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at test.controller.EnderecoControllerTest.setup(EnderecoControllerTest.java:65)
+
