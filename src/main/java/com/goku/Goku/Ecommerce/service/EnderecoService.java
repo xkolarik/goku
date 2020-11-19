@@ -1,7 +1,7 @@
 package com.goku.goku.ecommerce.service;
 
-import com.goku.goku.ecommerce.model.Endereco;
-import com.goku.goku.ecommerce.model.EnderecoCEPDetalhe;
+import com.goku.goku.ecommerce.model.endereco.Endereco;
+import com.goku.goku.ecommerce.model.endereco.EnderecoCEPDetalhe;
 
 import java.util.List;
 

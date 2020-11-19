@@ -1,0 +1,16 @@
+spring.application.name: Mongo DB Example APP Goku Ecommerce
+
+#Mongo DB
+spring.data.mongodb.host: 127.0.0.1
+spring.data.mongodb.port: 27017
+spring.data.mongodb.database: goku-bank
+
+#security:
+#    oauth2:
+#        client:
+#            access-token-validity-seconds: 3600
+#            authorized-grant-types: password,refresh_token
+#            client-id: coderef
+#            client-secret: coderef
+#            resource-ids: resources
+#            scope: password

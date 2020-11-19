@@ -1,7 +1,7 @@
 package com.goku.goku.ecommerce.model.presenter;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.goku.goku.ecommerce.model.EnderecoCEPDetalhe;
+import com.goku.goku.ecommerce.model.endereco.EnderecoCEPDetalhe;
 
 public class EnderecoCEPDetalheResponse {
 

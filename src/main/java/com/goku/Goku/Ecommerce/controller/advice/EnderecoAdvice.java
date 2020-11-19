@@ -16,9 +16,9 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
 import java.util.Objects;
 
 @RestControllerAdvice
-public class Advice {
+public class EnderecoAdvice {
 
-    private static final Logger log = LoggerFactory.getLogger(Advice.class);
+    private static final Logger log = LoggerFactory.getLogger(EnderecoAdvice.class);
 
     @ExceptionHandler(Exception.class)
     public ResponseEntity<ErrorResponse> handleException(Exception exception) {

@@ -1,4 +1,4 @@
-package com.goku.goku.ecommerce.model;
+package com.goku.goku.ecommerce.model.endereco;
 
 import lombok.*;
 

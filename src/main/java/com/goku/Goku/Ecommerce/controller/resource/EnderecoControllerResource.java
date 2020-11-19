@@ -1,8 +1,9 @@
 package com.goku.goku.ecommerce.controller.resource;
 
-import com.goku.goku.ecommerce.model.Endereco;
+import com.goku.goku.ecommerce.model.endereco.Endereco;
 import com.goku.goku.ecommerce.model.presenter.EnderecoCEPDetalheResponse;
 import com.goku.goku.ecommerce.model.presenter.ErrorResponse;
+import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiResponse;
 import io.swagger.annotations.ApiResponses;
@@ -10,7 +11,8 @@ import org.springframework.http.ResponseEntity;
 
 import java.util.List;
 
-public interface ResourceController {
+@Api(value = "Serviço que gerencia os endereços")
+public interface EnderecoControllerResource {
 
     @ApiOperation(value = "Cria um novo endereço")
     @ApiResponses(value = { @ApiResponse(code = 204, message = "No Content"),

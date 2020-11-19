@@ -1,8 +1,8 @@
 package com.goku.goku.ecommerce.controller;
 
-import com.goku.goku.ecommerce.controller.resource.ResourceController;
-import com.goku.goku.ecommerce.model.Endereco;
-import com.goku.goku.ecommerce.model.EnderecoCEPDetalhe;
+import com.goku.goku.ecommerce.controller.resource.EnderecoControllerResource;
+import com.goku.goku.ecommerce.model.endereco.Endereco;
+import com.goku.goku.ecommerce.model.endereco.EnderecoCEPDetalhe;
 import com.goku.goku.ecommerce.model.presenter.EnderecoCEPDetalheResponse;
 import com.goku.goku.ecommerce.service.EnderecoService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,7 +13,9 @@ import org.springframework.web.bind.annotation.*;
 import javax.validation.Valid;
 import java.util.List;
 
-public class CadastroController implements ResourceController {
+@RestController
+@RequestMapping("/api/v1/enderecos")
+public class CadastroEnderecoControllerResource implements EnderecoControllerResource {
 
     @Autowired
     private EnderecoService enderecoService;

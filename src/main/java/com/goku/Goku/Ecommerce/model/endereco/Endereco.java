@@ -1,6 +1,7 @@
-package com.goku.goku.ecommerce.model;
+package com.goku.goku.ecommerce.model.endereco;
 
 import lombok.*;
+import org.springframework.data.annotation.Id;
 
 @Data
 @Builder
@@ -9,6 +10,11 @@ import lombok.*;
 @EqualsAndHashCode
 public class Endereco {
 
+    @Id
+    private Long id;
+
+    private Long cep;
+    private String logradouro;
     private Long numero;
     private String bairro;
     private String cidade;
