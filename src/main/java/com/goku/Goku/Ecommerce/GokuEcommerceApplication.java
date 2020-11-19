@@ -1,4 +1,4 @@
-package com.goku.Goku.Ecommerce;
+package com.goku.goku.ecommerce;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
